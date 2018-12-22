@@ -1,0 +1,65 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../../../../dest/img/sprites/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 51em 227.7em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../../../../dest/img/sprites/sprite.png");
+}
+
+
+
+  .icon.gmail:before {
+      background-position: 0em 0em;
+      width: 51em;
+      height: 51em;
+  }
+
+
+
+
+  .icon.instagram:before {
+      background-position: 0em -51em;
+      width: 36.4em;
+      height: 36.4em;
+  }
+
+
+
+
+  .icon.skype:before {
+      background-position: 0em -87.4em;
+      width: 50.852em;
+      height: 50.852em;
+  }
+
+
+
+
+  .icon.telegram:before {
+      background-position: 0em -138.3em;
+      width: 45.5em;
+      height: 45.5em;
+  }
+
+
+
+
+  .icon.telephone:before {
+      background-position: 0em -183.8em;
+      width: 43.8536em;
+      height: 43.8536em;
+  }
+
+
+
+
+

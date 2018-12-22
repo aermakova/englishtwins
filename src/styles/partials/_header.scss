@@ -1,0 +1,85 @@
+.header{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%);
+  margin-top: 16px;
+  &_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.logo{
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #fff;
+  span{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: block;
+    font-size: 31px;
+  }
+}
+.nav{
+  &_link{
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    &:hover{
+      color: #ffdb31;
+      transition: all 0.3s ease 0s;
+      &:before{
+        width: 100%;
+        left: 0;
+      }
+      &:after{
+        width: 100%;
+        left: 0;
+      }
+    }
+    &:before{
+      content: "";
+      width: 0;
+      height: 1px;
+      background: #ffdb31;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transition: all 0.3s ease 0s;
+    }
+    &:after{
+      content: "";
+      width: 0;
+      height: 1px;
+      background: #ffdb31;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transition: all 0.3s ease 0s;
+      top: auto;
+      bottom: 0;
+    }
+  }
+}
+.soc{
+  font-family: "icons";
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  a:not(last-child){
+    text-decoration: none;
+    color: #ffdb31;
+    margin: 0 10px;
+  }
+}
+
+

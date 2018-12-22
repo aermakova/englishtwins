@@ -1,0 +1,14 @@
+
+.footer{
+  line-height: 50px;
+  color: #fff;
+  &_line{
+    display: flex;
+    justify-content: space-between;
+  }
+  p{
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+  }
+}
